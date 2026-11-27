@@ -1,0 +1,24 @@
+Building configuration...
+
+Current configuration : 1988 bytes
+!
+version 12.2(37)SE1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname sw_main
+!
+!
+no profinet
+enable secret 5 $1$mERr$GvDaTJK9lhdXRUPWKA74O0
+enable password 7 0822455D0A16
+!
+!
+!
+!
+!
+ip routing
+!
+
+sw_main#
